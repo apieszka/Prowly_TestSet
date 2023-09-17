@@ -1,0 +1,11 @@
+	Test Case ID 	3	
+	Title	Searching for 'prowly' on google.com filtering by date.	
+	Description	Verification of ability to search for 'prowly' on google.com search engine using narrowing down the date of publication.	
+	Prerequisties	User has downloaded and installed any browser and valid internet connection.	
+	Test Step	Expected Result	Test Result
+1	Open browser. In search bar type 'google.com'. Accept, by clicking [Enter]. 	Google home page is opened. 	
+2	In Google search bar type 'prowly'. Accept, by clicking [Enter]. 	Page with searching results is opened. Searchs are presented in list layout. 	
+3	In upper right side of view click [Tools].	Two categories below [Tools] button are shown: [Any time], [All results].	
+4	Click [Any Time] button.	Available selections are presented: [Any Time], [Past hour], [Past 24 hours], [Past week], [Past month], [Past year], [Custom range…].	
+5	Select [Custom range…].	Customised date range pop-up is shown. 	
+6	Set date range by selecting date in the date picker. Accept by clicking [Go].	User cannot insert date from the future in the date picker. Results in search engine are published within set dates.	

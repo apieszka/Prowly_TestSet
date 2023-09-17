@@ -1,0 +1,8 @@
+	Test Case ID 	1	
+	Title	Searching for 'prowly' on google.com, filtering by 'Careers' category	
+	Description	Verification of ability to search for 'prowly' on google.com search engine using 'Careers' category	
+	Prerequisties	User has downloaded and installed any browser and valid internet connection.	
+	Test Step	Expected Result	Test Result
+1	Open browser. In search bar type 'google.com'. Accept, by clicking [Enter]. 	Google home page is opened. 	
+2	In Google search bar type 'prowly'. Accept, by clicking [Enter]. 	Page with searching results is opened. Searchs are presented in list layout. 	
+3	In upper side of the window, below google search bar click 'Careers' category. 	In Google search bar 'prowly careers' is inserted. Category 'Careers' is selected. Results for 'prowly careers' in list layout are shown.	
